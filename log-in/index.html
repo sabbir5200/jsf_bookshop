@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <title>Log-in</title>
+
+         <!-- customs style -->
+      <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                button: '#E76F51',
+                primary: 'rgba(231, 111, 81, 0.10)'
+              }
+            }
+          }
+        }
+      </script>
+
+      <style>
+       .font-poppins{
+      font-family: 'Poppins', sans-serif;}
+      </style>
+</head>
+<body>
+    <div class="hero min-h-screen bg-primary">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <div class="text-center lg:text-left">
+            <h1 class="text-5xl font-bold text-accent">Login now!</h1>
+            <p class="py-6 text-gray-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, illo! Sunt similique itaque odio. Placeat dolorum excepturi nisi recusandae unde eaque illum vero.<br> Assumenda eum fugit nemo obcaecati, maiores ut. Ab laudantium alias dicta similique quibusdam nostrum facere enim exercitationem neque, ipsa voluptas beatae! Adipisci quaerat explicabo similique omnis fugit?</p>
+          </div>
+          <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+            <div class="card-body">
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Email :</span>
+                </label>
+                <input type="text" placeholder="email" class="input input-bordered" />
+              </div>
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Password :</span>
+                </label>
+                <input type="text" placeholder="password" class="input input-bordered" />
+                <label class="label">
+                  <a href="#" class="label-text-alt link link-hover text-red-500">Forgot password?</a>
+                </label>
+              </div>
+              <div class="form-control mt-6">
+                <button class="btn btn-accent text-white">Login</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
